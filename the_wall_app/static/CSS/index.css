@@ -1,0 +1,21 @@
+*{
+    margin: 0 40px;
+    padding: 5px 0;
+    background-color: rgb(182, 192, 147);
+}
+input{
+    background-color: beige;
+}
+button{
+    background-color: rgb(141, 146, 121);
+
+    padding: 5px;
+}
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(233, 243, 197);
+
+}
