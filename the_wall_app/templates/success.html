@@ -28,6 +28,12 @@
             <div class='one_post'>
                 <p class='post'>{{post.message}}</p>
                 <p class='poster'>By: <a href="/user_profile/{{post.poster.id}}">{{post.poster.first_name}} {{post.poster.last_name}}</a></p>
+                <div class="ui container">
+                    {% block content %}
+
+                    
+                    {% endblock content%}
+                </div>
                 <a href="/like/{{post.id}}">Like Post</a>
                 <p>{{ post.user_likes.count }}</p>
                 <form action="/add_comment/{{post.id}}" method=POST>
